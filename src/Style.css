@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010101;
+    --box-shadow : 0 .5rem 1.5rem rgba(0,0,0,.1);
+    --outline :  .1rem solid rgba(0,0,0,.1);
+    --outline-hover: .2rem solid var(--black);
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
+.btn{
+    margin-top: 2rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.heading{
+    text-align: center;
+    padding: .2rem 0;
+    padding-bottom: .3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.box{
+    background: var(--bg);
+    margin-top: 15px;
+    padding: 0.2rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.box h1{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
